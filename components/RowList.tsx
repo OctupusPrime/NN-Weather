@@ -15,14 +15,14 @@ export function RowList() {
             horizontal
             showsHorizontalScrollIndicator={false}
             style={tw`flex flex-row`}
-            contentContainerStyle={{padding: 14, paddingBottom: 30, paddingTop: 5}}
+            contentContainerStyle={{padding: 16, paddingBottom: 30, paddingTop: 5}}
             overScrollMode={'never'}>
-            <View style={tw`absolute inset-0 top-[50%] bg-white`} />
+            <View style={tw`absolute inset-0 top-1/2 bg-white`} />
             {
                 data.map((_, i) => 
                     <View 
-                        style={[tw`rounded-lg bg-white w-[${16*vw}px] 
-                            flex items-center ${i === data.length - 1 ? '' : 'mr-[14px]'}`,
+                        style={[tw`rounded-lg bg-white w-[${15.4*vw}px] 
+                            flex items-center ${i === data.length - 1 ? '' : 'mr-4'}`,
                             {
                                 shadowColor: "#000",
                                 shadowOffset:{

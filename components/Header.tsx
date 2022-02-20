@@ -11,7 +11,7 @@ export default function Header({title, subtitle, icon, callback,} : {
     icon: React.ComponentProps<typeof BaseButton>['name'],
     callback: Function}) {
     return (
-        <View style={tw`flex justify-between flex-row items-center px-[20px]`}>
+        <View style={tw`flex justify-between flex-row items-center px-4`}>
             <View>
                 <Text style={tw`text-lg font-m-medium`}>{subtitle}</Text>
                 <Text style={tw`text-3xl font-m-bold`}>{title}</Text>

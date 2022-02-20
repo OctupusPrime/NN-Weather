@@ -10,7 +10,7 @@ export default function BaseTable() {
 
     return (
       <View 
-        style={[tw`rounded-xl flex-row justify-between p-[14px] bg-white`, 
+        style={[tw`rounded-xl flex-row justify-between p-4 bg-white`, 
         {
             shadowColor: "#000",
             shadowOffset: {
